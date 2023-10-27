@@ -9,17 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "mongoose": "^7.6.3",
+    "next": "14.0.0",
+    "nodemailer": "^6.9.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.0"
+    "react-responsive-carousel": "^3.2.23",
+    "supports-color": "^9.4.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3"
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/nodemailer": "^6.4.13",
+    "@types/react-dom": "^18.2.14",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   }
 }
