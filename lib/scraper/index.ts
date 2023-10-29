@@ -14,13 +14,13 @@ export async function scrapeAmazonProduct(url: string) {
   const session_id = (1000000 * Math.random()) | 0;
 
   const options = {
-    // auth: {
-    //   username: `${username}-session-${session_id}`,
-    //   password,
-    // },
-    // host: 'brd.superproxy.io',
-    // port,
-    // rejectUnauthorized: false,
+    auth: {
+      username: `${username}-session-${session_id}`,
+      password,
+    },
+    host: 'brd.superproxy.io',
+    port,
+    rejectUnauthorized: false,
   }
 
   try {
